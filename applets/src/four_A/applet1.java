@@ -22,7 +22,17 @@ public class applet1 extends Applet implements KeyListener {
 			else	showStatus(palin+" is Not a plaindrome");
 		}
 	}
-	public void keyPressed(KeyEvent k) {}
-	public void keyReleased(KeyEvent e) {}
+
+	@Override
+	public void keyPressed(KeyEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void keyReleased(KeyEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
