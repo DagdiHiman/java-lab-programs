@@ -7,7 +7,7 @@ interface DataStructure{
 	public boolean isFull();
 }
 
-public class Stack {
+public class Stack implements DataStructure {
 	private int arr[];
 	private int top;
 	private int capacity;
@@ -42,12 +42,12 @@ public class Stack {
 		return n;
 	}
 
-	public Boolean isEmpty()
+	public boolean isEmpty()
 	{
 		return top == -1;
 	}
 
-	public Boolean isFull()
+	public boolean isFull()
 	{
 		return top == capacity - 1;
 	}
